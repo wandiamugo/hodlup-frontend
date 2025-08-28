@@ -1,39 +1,23 @@
 {
   "expo": {
-    "name": "Bare",
-    "slug": "bare-expo",
+    "name": "Holdup Casino",
+    "slug": "holdup-casino",
     "version": "1.0.0",
-    "newArchEnabled": true,
     "orientation": "portrait",
-    "scheme": "to.holepunch.bare.expo",
-    "icon": "./assets/images/icon.png",
+    "scheme": "holdup-casino",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1A1A2E"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "to.holepunch.bare.expo"
+      "bundleIdentifier": "com.holdup.casino"
     },
     "android": {
+      "package": "com.holdup.casino",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "to.holepunch.bare.expo"
-    },
-    "plugins": [
-      ["expo-router"],
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "minSdkVersion": 29
-          }
-        }
-      ]
-    ]
+        "backgroundColor": "#1A1A2E"
+      }
+    }
   }
 }

@@ -1,42 +1,36 @@
 {
-  "private": true,
-  "name": "bare-expo",
-  "description": "Example of embedding Bare in an Expo application",
-  "main": "expo-router/entry",
+  "name": "holdup-casino",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "web": "expo start --web"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/holepunchto/bare-expo.git"
-  },
-  "author": "Holepunch",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/holepunchto/bare-expo/issues"
-  },
-  "homepage": "https://github.com/holepunchto/bare-expo#readme",
   "dependencies": {
+    "@hopets/peardrive-core": "0.2.53",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@react-native-clipboard/clipboard": "^1.16.3",
     "b4a": "^1.6.7",
-    "events": "^3.3.0",
-    "expo": "^53.0.9",
-    "expo-build-properties": "^0.14.6",
-    "expo-constants": "^17.1.6",
-    "expo-linking": "^7.1.5",
-    "expo-router": "^5.0.6",
-    "expo-system-ui": "^5.0.7",
-    "react": "~19.0.0",
-    "react-dom": "~19.0.0",
-    "react-native": "^0.79.2",
-    "react-native-bare-kit": "^0.8.1",
-    "react-native-safe-area-context": "^5.4.0"
+    "bare-crypto": "^1.11.1",
+    "bare-fs": "^4.2.0",
+    "bare-path": "^3.0.0",
+    "bare-rpc": "^0.2.6",
+    "bare-url": "^2.2.1",
+    "expo": "~50.0.17",
+    "expo-file-system": "~16.0.9",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "typescript": "^5.3.0",
+    "expo-linear-gradient": "~12.7.2"
   },
   "devDependencies": {
-    "@types/react": "^19.1.3",
-    "prettier": "^3.3.3",
-    "prettier-config-standard": "^7.0.0",
-    "typescript": "^5.3.3"
-  }
+    "@babel/core": "^7.20.0",
+    "@types/b4a": "^1.6.5",
+    "@types/react": "~18.2.45",
+    "bare-pack": "^1.4.2"
+  },
+  "private": true
 }
