@@ -94,7 +94,6 @@ const HodlupGameBoard = ({
         <Text style={styles.gameSubtitle}>Bitcoin Mining Game</Text>
         <View style={styles.gameStats}>
           <Text style={styles.difficultyDisplay}>Difficulty: {hodlupState.difficulty}</Text>
-          <Text style={styles.scoreDisplay}>Score: {hodlupState.score}</Text>
           <Text style={styles.blocksDisplay}>Blocks Mined: {hodlupState.blocksMinedSuccessfully}/17</Text>
         </View>
       </View>
